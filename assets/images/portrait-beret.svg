@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 400" role="img" aria-labelledby="t">
+  <title id="t">Original monochrome anime portrait of the designer: short bob hair, beret, round glasses, holding a pencil</title>
+  <defs>
+    <filter id="st" x="-10%" y="-10%" width="120%" height="120%">
+      <feMorphology in="SourceAlpha" operator="dilate" radius="6" result="d"/>
+      <feFlood flood-color="#fff"/><feComposite in2="d" operator="in" result="o"/>
+      <feMorphology in="SourceAlpha" operator="dilate" radius="9" result="d2"/>
+      <feFlood flood-color="#000"/><feComposite in2="d2" operator="in" result="o2"/>
+      <feMerge><feMergeNode in="o2"/><feMergeNode in="o"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <pattern id="tn" width="6" height="6" patternUnits="userSpaceOnUse"><rect width="6" height="6" fill="#fff"/><circle cx="3" cy="3" r="1.3" fill="#999"/></pattern>
+    <linearGradient id="hr" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#3c3c3c"/><stop offset="1" stop-color="#0d0d0d"/></linearGradient>
+  </defs>
+  <g filter="url(#st)" stroke-linejoin="round" stroke-linecap="round">
+    <!-- hoodie body -->
+    <path d="M40 400 C46 330 96 296 150 284 L210 284 C264 296 314 330 320 400 Z" fill="#1d1d1d" stroke="#000" stroke-width="4"/>
+    <path d="M128 292 C140 330 220 330 232 292" fill="none" stroke="#fff" stroke-width="3"/>
+    <path d="M160 316 l-4 60 M200 316 l4 60" stroke="#fff" stroke-width="3"/>
+    <circle cx="156" cy="380" r="5" fill="#fff"/><circle cx="204" cy="380" r="5" fill="#fff"/>
+    <text x="240" y="372" font-family="monospace" font-size="16" fill="#777" font-weight="700">KRK</text>
+    <!-- neck -->
+    <path d="M160 240 L160 290 C170 300 190 300 200 290 L200 240 Z" fill="#fff" stroke="#000" stroke-width="4"/>
+    <path d="M160 254 C172 272 188 272 200 254 L200 270 C188 284 172 284 160 270Z" fill="url(#tn)"/>
+    <!-- back hair (bob) -->
+    <path d="M180 58 C104 58 76 118 82 188 C86 230 92 252 104 268 L256 268 C268 252 274 230 278 188 C284 118 256 58 180 58 Z" fill="url(#hr)" stroke="#000" stroke-width="4"/>
+    <!-- face -->
+    <path d="M114 150 C112 214 132 248 180 268 C228 248 248 214 246 150 Z" fill="#fff" stroke="#000" stroke-width="4"/>
+    <path d="M116 166 C146 186 214 186 244 166 L244 182 C214 200 146 200 116 182Z" fill="url(#tn)" opacity=".7"/>
+    <!-- glasses -->
+    <g fill="none" stroke="#000" stroke-width="4">
+      <circle cx="148" cy="204" r="24" fill="#fff" fill-opacity=".15"/>
+      <circle cx="212" cy="204" r="24" fill="#fff" fill-opacity=".15"/>
+      <path d="M172 202 C176 196 184 196 188 202"/>
+      <path d="M124 200 L112 194 M236 200 L248 194"/>
+    </g>
+    <!-- happy closed eyes ^ ^ -->
+    <path d="M134 210 C140 196 156 196 162 210" fill="none" stroke="#000" stroke-width="5"/>
+    <path d="M198 210 C204 196 220 196 226 210" fill="none" stroke="#000" stroke-width="5"/>
+    <path d="M132 206 l-6 -3 M228 206 l6 -3" stroke="#000" stroke-width="3"/>
+    <!-- lens glare -->
+    <path d="M160 188 l8 8 M164 184 l4 4" stroke="#bbb" stroke-width="3"/>
+    <path d="M224 188 l8 8 M228 184 l4 4" stroke="#bbb" stroke-width="3"/>
+    <!-- blush -->
+    <g stroke="#888" stroke-width="2"><path d="M128 236 l5 -8 M135 238 l5 -8 M142 238 l5 -8"/><path d="M214 238 l5 -8 M221 238 l5 -8 M228 236 l5 -8"/></g>
+    <!-- mouth -->
+    <path d="M168 240 C174 250 186 250 192 240 Z" fill="#111" stroke="#000" stroke-width="2.5"/>
+    <path d="M176 226 l2 5" stroke="#000" stroke-width="2.5"/>
+    <!-- bangs -->
+    <path d="M106 170 C100 108 136 80 180 80 C226 80 262 108 254 172 L240 150 L234 182 L218 142 L206 176 L192 136 L178 174 L164 140 L150 178 L138 146 L124 182 Z" fill="url(#hr)" stroke="#000" stroke-width="4"/>
+    <g fill="none" stroke="#fff" stroke-width="3"><path d="M140 104 C152 96 166 94 178 94"/><path d="M196 94 C210 96 222 100 232 108"/></g>
+    <!-- side bob ends -->
+    <path d="M110 170 C102 210 98 246 110 272 C122 256 128 230 126 196 Z" fill="url(#hr)" stroke="#000" stroke-width="4"/>
+    <path d="M250 170 C258 210 262 246 250 272 C238 256 232 230 234 196 Z" fill="url(#hr)" stroke="#000" stroke-width="4"/>
+    <!-- beret -->
+    <path d="M86 112 C80 70 140 30 196 36 C258 42 292 82 268 112 C240 94 120 92 86 112 Z" fill="#141414" stroke="#000" stroke-width="4"/>
+    <path d="M98 104 C140 86 226 86 260 104" fill="none" stroke="#fff" stroke-width="2" stroke-dasharray="4 5"/>
+    <path d="M182 36 C180 26 186 18 194 18" fill="none" stroke="#000" stroke-width="5"/>
+    <!-- beret pin -->
+    <circle cx="238" cy="70" r="13" fill="#fff" stroke="#000" stroke-width="3"/>
+    <path d="M238 61 l2.5 6 6.5 .5 -5 4 1.6 6.4 -5.6 -3.5 -5.6 3.5 1.6 -6.4 -5 -4 6.5 -.5z" fill="#000"/>
+    <!-- hand with pencil -->
+    <g transform="rotate(24 270 300)">
+      <rect x="252" y="196" width="16" height="120" rx="3" fill="#fff" stroke="#000" stroke-width="4"/>
+      <path d="M252 196 L260 172 L268 196 Z" fill="#fff" stroke="#000" stroke-width="4"/>
+      <path d="M257 182 L260 172 L263 182 Z" fill="#000"/>
+      <rect x="252" y="300" width="16" height="16" fill="#555" stroke="#000" stroke-width="4"/>
+    </g>
+    <path d="M250 330 C240 300 262 278 288 284 C306 290 308 318 296 336 C282 352 258 350 250 330 Z" fill="#fff" stroke="#000" stroke-width="4"/>
+    <path d="M262 300 C272 296 284 298 292 304 M258 316 C270 312 284 314 294 320" fill="none" stroke="#000" stroke-width="2.5"/>
+  </g>
+</svg>

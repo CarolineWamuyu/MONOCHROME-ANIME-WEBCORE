@@ -1,0 +1,147 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 520" role="img" aria-labelledby="t">
+  <title id="t">Original monochrome anime girl with long hair, star hair clip and headphones around her neck</title>
+  <defs>
+    <filter id="sticker" x="-10%" y="-10%" width="120%" height="120%">
+      <feMorphology in="SourceAlpha" operator="dilate" radius="7" result="d"/>
+      <feFlood flood-color="#ffffff"/>
+      <feComposite in2="d" operator="in" result="outline"/>
+      <feMorphology in="SourceAlpha" operator="dilate" radius="10" result="d2"/>
+      <feFlood flood-color="#000000"/>
+      <feComposite in2="d2" operator="in" result="outline2"/>
+      <feMerge><feMergeNode in="outline2"/><feMergeNode in="outline"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <pattern id="tone" width="6" height="6" patternUnits="userSpaceOnUse">
+      <rect width="6" height="6" fill="#ffffff"/>
+      <circle cx="3" cy="3" r="1.3" fill="#9a9a9a"/>
+    </pattern>
+    <pattern id="toneDark" width="5" height="5" patternUnits="userSpaceOnUse">
+      <rect width="5" height="5" fill="#2a2a2a"/>
+      <circle cx="2.5" cy="2.5" r="1" fill="#555"/>
+    </pattern>
+    <radialGradient id="iris" cx="50%" cy="62%" r="60%">
+      <stop offset="0" stop-color="#8a8a8a"/>
+      <stop offset=".55" stop-color="#2b2b2b"/>
+      <stop offset="1" stop-color="#050505"/>
+    </radialGradient>
+    <linearGradient id="hairShine" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#3a3a3a"/>
+      <stop offset="1" stop-color="#0c0c0c"/>
+    </linearGradient>
+  </defs>
+
+  <g filter="url(#sticker)" stroke-linejoin="round" stroke-linecap="round">
+    <!-- back hair -->
+    <path d="M210 38 C118 36 74 104 74 196 C74 268 70 330 46 400 C66 412 96 414 122 404 C112 352 116 300 132 262 L288 262 C304 300 308 352 298 404 C324 414 354 412 374 400 C350 330 346 268 346 196 C346 104 302 40 210 38 Z" fill="url(#hairShine)" stroke="#000" stroke-width="4"/>
+    <!-- back hair strand lines -->
+    <g fill="none" stroke="#5a5a5a" stroke-width="2">
+      <path d="M92 230 C90 300 80 350 64 396"/>
+      <path d="M106 250 C104 310 100 360 96 404"/>
+      <path d="M328 230 C330 300 340 350 356 396"/>
+      <path d="M314 250 C316 310 320 360 324 404"/>
+    </g>
+
+    <!-- body / uniform -->
+    <path d="M56 520 C62 440 112 392 178 372 L242 372 C308 392 358 440 364 520 Z" fill="#f4f4f4" stroke="#000" stroke-width="4"/>
+    <!-- uniform shading -->
+    <path d="M64 520 C70 456 104 418 150 396 L140 520 Z" fill="url(#tone)" opacity=".9"/>
+    <path d="M356 520 C350 456 316 418 270 396 L280 520 Z" fill="url(#tone)" opacity=".9"/>
+    <!-- sailor collar -->
+    <path d="M150 380 L210 470 L270 380 L318 406 L210 520 L102 406 Z" fill="#1c1c1c" stroke="#000" stroke-width="4"/>
+    <path d="M118 410 L210 508 L302 410" fill="none" stroke="#fff" stroke-width="3"/>
+    <path d="M126 402 L210 494 L294 402" fill="none" stroke="#fff" stroke-width="1.5"/>
+    <!-- neck -->
+    <path d="M186 318 L186 372 C196 384 224 384 234 372 L234 318 Z" fill="#fff" stroke="#000" stroke-width="4"/>
+    <path d="M186 330 C200 350 220 350 234 330 L234 348 C220 362 200 362 186 348 Z" fill="url(#tone)"/>
+
+    <!-- headphones around neck -->
+    <path d="M140 372 C150 404 270 404 280 372" fill="none" stroke="#000" stroke-width="12"/>
+    <path d="M140 372 C150 404 270 404 280 372" fill="none" stroke="#3a3a3a" stroke-width="6"/>
+    <g>
+      <ellipse cx="136" cy="376" rx="26" ry="30" fill="#111" stroke="#000" stroke-width="4" transform="rotate(-18 136 376)"/>
+      <ellipse cx="134" cy="376" rx="15" ry="18" fill="#3a3a3a" stroke="#fff" stroke-width="2" transform="rotate(-18 134 376)"/>
+      <path d="M128 368 l4 0 l0 4 l4 0 l0 4 l-4 0 l0 4 l-4 0 l0 -4 l-4 0 l0 -4 l4 0z" fill="#fff"/>
+      <ellipse cx="284" cy="376" rx="26" ry="30" fill="#111" stroke="#000" stroke-width="4" transform="rotate(18 284 376)"/>
+      <ellipse cx="286" cy="376" rx="15" ry="18" fill="#3a3a3a" stroke="#fff" stroke-width="2" transform="rotate(18 286 376)"/>
+      <path d="M282 370 l8 0 l0 12 l-8 0z" fill="#fff"/>
+    </g>
+    <!-- ribbon -->
+    <path d="M210 470 L182 452 L180 486 Z M210 470 L238 452 L240 486 Z" fill="#fff" stroke="#000" stroke-width="3"/>
+    <circle cx="210" cy="470" r="8" fill="#111" stroke="#000" stroke-width="3"/>
+
+    <!-- ears -->
+    <path d="M136 228 C118 220 114 252 128 266 C134 272 140 270 142 264 Z" fill="#fff" stroke="#000" stroke-width="3.5"/>
+    <path d="M284 228 C302 220 306 252 292 266 C286 272 280 270 278 264 Z" fill="#fff" stroke="#000" stroke-width="3.5"/>
+
+    <!-- face -->
+    <path d="M136 176 C134 252 156 302 210 332 C264 302 286 252 284 176 Z" fill="#ffffff" stroke="#000" stroke-width="4"/>
+    <!-- face shadow under bangs -->
+    <path d="M140 196 C170 214 250 214 280 196 L280 214 C250 230 170 230 140 214 Z" fill="url(#tone)" opacity=".75"/>
+
+    <!-- eyes -->
+    <g transform="translate(210 246) scale(1.2 1.22) translate(-210 -246)">
+      <!-- left -->
+      <path d="M150 246 C156 228 186 224 198 240 C192 262 160 270 150 246 Z" fill="#fff"/>
+      <ellipse cx="176" cy="248" rx="14" ry="19" fill="url(#iris)" stroke="#000" stroke-width="2"/>
+      <ellipse cx="176" cy="252" rx="6" ry="9" fill="#000"/>
+      <circle cx="170" cy="240" r="5.5" fill="#fff"/>
+      <circle cx="182" cy="258" r="2.5" fill="#fff"/>
+      <path d="M144 240 C152 222 186 216 202 236" fill="none" stroke="#000" stroke-width="6"/>
+      <path d="M144 240 l-8 -4 M150 232 l-7 -7" stroke="#000" stroke-width="3"/>
+      <path d="M160 266 C168 270 184 270 192 262" fill="none" stroke="#000" stroke-width="2"/>
+      <!-- right -->
+      <path d="M270 246 C264 228 234 224 222 240 C228 262 260 270 270 246 Z" fill="#fff"/>
+      <ellipse cx="244" cy="248" rx="14" ry="19" fill="url(#iris)" stroke="#000" stroke-width="2"/>
+      <ellipse cx="244" cy="252" rx="6" ry="9" fill="#000"/>
+      <circle cx="238" cy="240" r="5.5" fill="#fff"/>
+      <circle cx="250" cy="258" r="2.5" fill="#fff"/>
+      <path d="M276 240 C268 222 234 216 218 236" fill="none" stroke="#000" stroke-width="6"/>
+      <path d="M276 240 l8 -4 M270 232 l7 -7" stroke="#000" stroke-width="3"/>
+      <path d="M260 266 C252 270 236 270 228 262" fill="none" stroke="#000" stroke-width="2"/>
+      <!-- brows -->
+      <path d="M156 218 C166 212 182 212 192 216" fill="none" stroke="#000" stroke-width="2.5"/>
+      <path d="M264 218 C254 212 238 212 228 216" fill="none" stroke="#000" stroke-width="2.5"/>
+    </g>
+
+    <!-- blush hatching -->
+    <g stroke="#7a7a7a" stroke-width="2">
+      <path d="M150 280 l6 -9 M158 282 l6 -9 M166 283 l6 -9"/>
+      <path d="M254 283 l6 -9 M262 282 l6 -9 M270 280 l6 -9"/>
+    </g>
+    <!-- nose & mouth -->
+    <path d="M208 276 l3 6" stroke="#000" stroke-width="2.5"/>
+    <path d="M196 298 C202 308 218 308 224 298 C218 302 202 302 196 298 Z" fill="#111" stroke="#000" stroke-width="2.5"/>
+    <path d="M204 304 C208 306 212 306 216 304" stroke="#888" stroke-width="2" fill="none"/>
+
+    <!-- side locks -->
+    <path d="M138 180 C122 230 120 290 108 348 C126 330 138 300 146 262 C148 236 150 206 156 186 Z" fill="url(#hairShine)" stroke="#000" stroke-width="4"/>
+    <path d="M282 180 C298 230 300 290 312 348 C294 330 282 300 274 262 C272 236 270 206 264 186 Z" fill="url(#hairShine)" stroke="#000" stroke-width="4"/>
+
+    <!-- bangs -->
+    <path d="M124 196 C116 116 156 72 210 70 C264 72 304 116 296 200 L284 178 L274 222 L258 168 L244 214 L228 160 L212 206 L196 158 L182 214 L166 166 L152 220 L142 176 L132 214 Z" fill="url(#hairShine)" stroke="#000" stroke-width="4"/>
+    <!-- bang strand lines -->
+    <g fill="none" stroke="#555" stroke-width="2">
+      <path d="M170 92 C162 120 160 146 164 162"/>
+      <path d="M210 84 C206 110 206 136 210 154"/>
+      <path d="M250 92 C258 120 260 146 256 162"/>
+      <path d="M146 120 C140 140 140 160 144 172"/>
+      <path d="M274 120 C280 140 280 160 276 172"/>
+    </g>
+    <!-- angel ring highlight -->
+    <g fill="none" stroke="#fff" stroke-width="3">
+      <path d="M150 116 C160 108 168 106 176 106"/>
+      <path d="M190 102 C200 99 212 99 222 100"/>
+      <path d="M238 104 C250 106 260 110 270 118"/>
+    </g>
+    <g fill="#fff">
+      <path d="M182 108 l4 -6 l4 6z"/>
+      <path d="M228 106 l4 -6 l4 6z"/>
+    </g>
+    <!-- ahoge -->
+    <path d="M206 72 C196 40 214 22 236 26 C220 32 214 48 222 70" fill="url(#hairShine)" stroke="#000" stroke-width="4"/>
+
+    <!-- star hair clip -->
+    <path d="M276 128 l9 18 l20 3 l-15 14 l4 20 l-18 -10 l-18 10 l4 -20 l-15 -14 l20 -3 z" fill="#fff" stroke="#000" stroke-width="4"/>
+    <circle cx="276" cy="156" r="3" fill="#000"/>
+    <rect x="250" y="176" width="34" height="7" rx="3" fill="#111" stroke="#fff" stroke-width="2" transform="rotate(-24 267 179)"/>
+  </g>
+</svg>

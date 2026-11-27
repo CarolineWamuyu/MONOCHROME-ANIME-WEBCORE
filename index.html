@@ -1,0 +1,688 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>KUROINK ★ creative designer's corner of the web</title>
+  <meta name="description" content="Personal homepage and portfolio of Noa Kuroe (kuroink), an independent creative designer making websites, UI, branding, motion and odd little experiments in black and white.">
+  <meta name="theme-color" content="#080808">
+  <link rel="icon" href="assets/icons/favicon.svg" type="image/svg+xml">
+  <link rel="preload" href="assets/fonts/dela-gothic-one-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- fixed grain overlay -->
+  <div class="grain" aria-hidden="true"></div>
+
+  <div class="site-frame">
+    <!-- corner rivets -->
+    <span class="rivet rivet--tl" aria-hidden="true"></span>
+    <span class="rivet rivet--tr" aria-hidden="true"></span>
+    <span class="rivet rivet--bl" aria-hidden="true"></span>
+    <span class="rivet rivet--br" aria-hidden="true"></span>
+
+    <!-- ============ A. MASTHEAD ============ -->
+    <header class="masthead" id="top">
+      <div class="masthead__inner">
+        <div class="masthead__burst" aria-hidden="true"></div>
+        <div class="masthead__speed" aria-hidden="true"></div>
+
+        <div class="masthead__topbar">
+          <span class="chip"><span class="dot dot--blink"></span> ONLINE</span>
+          <span class="masthead__url">~/kuroink/index.html</span>
+          <span class="chip chip--ghost">EST. 2019 · v4.2</span>
+        </div>
+
+        <div class="masthead__title-wrap">
+          <p class="masthead__jp" lang="ja" aria-hidden="true">黒インク</p>
+          <h1 class="masthead__title" aria-label="Kuroink">
+            <span class="ch">K</span><span class="ch">U</span><span class="ch">R</span><span class="ch">O</span><span class="ch ch--star" aria-hidden="true">★</span><span class="ch">I</span><span class="ch">N</span><span class="ch">K</span>
+          </h1>
+          <p class="masthead__tagline"><span>✦</span> a creative designer's little corner of the web <span>✦</span></p>
+        </div>
+
+        <!-- decorations -->
+        <img class="deco deco--sparkle d1" src="assets/icons/sparkle.svg" alt="" aria-hidden="true">
+        <img class="deco deco--sparkle d2" src="assets/icons/sparkle.svg" alt="" aria-hidden="true">
+        <img class="deco deco--pix d3" src="assets/icons/pixel-star.svg" alt="" aria-hidden="true">
+        <img class="deco deco--pix d4" src="assets/icons/pixel-heart.svg" alt="" aria-hidden="true">
+        <img class="deco deco--pix d5" src="assets/icons/pixel-sparkle.svg" alt="" aria-hidden="true">
+        <span class="deco deco--bubble d6" aria-hidden="true" lang="ja">ドキ<br>ドキ</span>
+        <span class="deco deco--sfx d7" aria-hidden="true">!!</span>
+        <span class="deco deco--ring d8" aria-hidden="true"></span>
+
+        <div class="masthead__badges">
+          <span class="badge88"><b>BEST VIEWED</b><i>IN B&amp;W</i></span>
+          <span class="badge88 badge88--inv"><b>HTML</b><i>HANDMADE</i></span>
+          <span class="badge88"><b>OPEN FOR</b><i>WORK ★</i></span>
+        </div>
+      </div>
+    </header>
+
+    <!-- ticker -->
+    <div class="ticker" aria-label="Latest notes">
+      <div class="ticker__track">
+        <span>★ NOW BOOKING JANUARY PROJECTS</span><span>✦ NEW: STATIC BLOOM POSTER SERIES</span><span>★ GUESTBOOK IS OPEN, SAY HI</span><span>✦ SITE REBUILT IN PLAIN HTML/CSS/JS</span><span>★ ALL ART ON THIS PAGE IS ORIGINAL</span><span>✦ 黒と白だけ · ONLY BLACK &amp; WHITE</span>
+      </div>
+    </div>
+
+    <!-- mobile menu toggle -->
+    <button class="menu-toggle btn-retro" type="button" aria-expanded="false" aria-controls="site-nav">
+      <i data-lucide="menu" aria-hidden="true"></i><span>MENU</span>
+    </button>
+
+    <!-- ============ B. BODY ============ -->
+    <div class="layout">
+      <!-- ===== LEFT SIDEBAR ===== -->
+      <aside class="sidebar" aria-label="Sidebar">
+        <nav class="panel nav-panel" id="site-nav" aria-label="Main navigation">
+          <h2 class="panel-label"><span>~ navigate ~</span></h2>
+          <ul class="nav-list">
+            <li><a class="nav-btn is-active" href="#home"><span class="bullet" aria-hidden="true"></span>HOME</a></li>
+            <li><a class="nav-btn" href="#about"><span class="bullet" aria-hidden="true"></span>ABOUT ME</a></li>
+            <li><a class="nav-btn" href="#portfolio"><span class="bullet" aria-hidden="true"></span>PORTFOLIO</a></li>
+            <li><a class="nav-btn" href="#services"><span class="bullet" aria-hidden="true"></span>MY SERVICES</a></li>
+            <li><a class="nav-btn" href="#lab"><span class="bullet" aria-hidden="true"></span>DESIGN LAB</a></li>
+            <li><a class="nav-btn" href="#experiments"><span class="bullet" aria-hidden="true"></span>EXPERIMENTS</a></li>
+            <li><a class="nav-btn" href="#journal"><span class="bullet" aria-hidden="true"></span>JOURNAL</a></li>
+            <li><a class="nav-btn" href="#guestbook"><span class="bullet" aria-hidden="true"></span>GUESTBOOK</a></li>
+            <li><a class="nav-btn" href="#contact"><span class="bullet" aria-hidden="true"></span>CONTACT</a></li>
+            <li><a class="nav-btn" href="#links"><span class="bullet" aria-hidden="true"></span>LINKS</a></li>
+          </ul>
+        </nav>
+
+        <div class="side-widgets">
+          <section class="panel widget" aria-labelledby="w-now">
+            <h2 class="panel-label" id="w-now"><span>now playing</span></h2>
+            <div class="np">
+              <div class="np__disc" aria-hidden="true"></div>
+              <div>
+                <p class="np__title">rain on tin roof</p>
+                <p class="np__artist">lofi tape no.3</p>
+              </div>
+            </div>
+            <div class="np__bars" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+          </section>
+
+          <section class="panel widget" aria-labelledby="w-stats">
+            <h2 class="panel-label" id="w-stats"><span>site stats</span></h2>
+            <dl class="stats">
+              <div><dt>visitors</dt><dd class="counter" id="hit-counter">0012847</dd></div>
+              <div><dt>local time</dt><dd id="clock">--:--</dd></div>
+              <div><dt>mood</dt><dd>( ˘ ▽ ˘ )</dd></div>
+              <div><dt>status</dt><dd><span class="dot dot--blink"></span> available</dd></div>
+            </dl>
+          </section>
+
+          <section class="panel widget widget--webring" aria-labelledby="w-ring">
+            <h2 class="panel-label" id="w-ring"><span>webring</span></h2>
+            <p class="ring-name"><img src="assets/icons/pixel-ring.svg" alt="" width="16" height="16"> mono·ring</p>
+            <div class="ring-nav">
+              <a href="https://neocities.org/browse" target="_blank" rel="noopener" class="mini-btn" aria-label="Previous site in webring">‹ prev</a>
+              <a href="https://neocities.org/browse" target="_blank" rel="noopener" class="mini-btn" aria-label="Random site in webring">rand</a>
+              <a href="https://neocities.org/browse" target="_blank" rel="noopener" class="mini-btn" aria-label="Next site in webring">next ›</a>
+            </div>
+          </section>
+
+          <div class="sticker-stack" aria-hidden="true">
+            <span class="sticker sticker--round">100%<br>INK</span>
+            <span class="sticker sticker--tag">NO<br>AI SLOP</span>
+          </div>
+        </div>
+      </aside>
+
+      <!-- ===== MAIN CONTENT ===== -->
+      <main class="content" id="main">
+
+        <!-- ===== WELCOME ===== -->
+        <section class="panel panel--main welcome" id="home" aria-labelledby="welcome-title">
+          <div class="panel-bar">
+            <span class="panel-bar__dots" aria-hidden="true"><i></i><i></i><i></i></span>
+            <span class="panel-bar__title">welcome.txt</span>
+            <span class="panel-bar__meta">01</span>
+          </div>
+
+          <div class="welcome__grid">
+            <div class="welcome__art">
+              <div class="welcome__halo" aria-hidden="true"></div>
+              <img class="welcome__girl" src="assets/images/hero-girl.svg" alt="Original black-and-white anime girl illustration, the site mascot, with long dark hair, a star clip and headphones" width="420" height="520">
+              <img class="float-deco fd1" src="assets/icons/sparkle.svg" alt="" aria-hidden="true">
+              <img class="float-deco fd2" src="assets/icons/pixel-star.svg" alt="" aria-hidden="true">
+              <img class="float-deco fd3" src="assets/icons/pixel-heart.svg" alt="" aria-hidden="true">
+              <span class="speech" aria-hidden="true">hi hi!</span>
+              <span class="art-caption">mascot: <b>inku-chan</b> (original art)</span>
+            </div>
+
+            <div class="welcome__text">
+              <p class="eyebrow"><img src="assets/icons/pixel-sparkle.svg" alt="" width="14" height="14"> hello, traveller</p>
+              <h2 class="welcome__title" id="welcome-title">WELCOME TO MY <span class="hl">CREATIVE</span> UNIVERSE!</h2>
+              <p>I'm <strong>Noa Kuroe</strong>, also known as <strong>kuroink</strong>. I'm an independent creative designer who builds websites, interfaces and identities that feel like someone actually made them by hand.</p>
+              <p>This little homepage is my sketchbook, my shop window and my diary all at once. I'm into manga panel layouts, screentone, early web graphics, typography that shouts, and interfaces you want to poke at.</p>
+              <ul class="welcome__list">
+                <li><img src="assets/icons/pixel-star.svg" alt="" width="14" height="14"> web design &amp; creative front-end</li>
+                <li><img src="assets/icons/pixel-star.svg" alt="" width="14" height="14"> UI/UX for apps &amp; tiny tools</li>
+                <li><img src="assets/icons/pixel-star.svg" alt="" width="14" height="14"> branding, posters &amp; zines</li>
+                <li><img src="assets/icons/pixel-star.svg" alt="" width="14" height="14"> motion graphics &amp; loops</li>
+              </ul>
+              <div class="welcome__cta">
+                <a href="#portfolio" class="btn-retro btn-retro--light"><i data-lucide="images" aria-hidden="true"></i> SEE MY WORK</a>
+                <a href="#contact" class="btn-retro"><i data-lucide="mail" aria-hidden="true"></i> SAY HELLO</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- status box -->
+          <article class="status-box" aria-label="Latest status update">
+            <div class="status-box__head">
+              <img class="avatar" src="assets/images/portrait-beret.svg" alt="" width="48" height="48">
+              <div>
+                <p class="status-box__user">@kuroink <span class="verified" title="it me">✦</span></p>
+                <p class="status-box__time">last updated: <time id="last-updated" datetime="2026-11-27">27 Nov 2026</time></p>
+              </div>
+              <span class="chip chip--small"><span class="dot dot--blink"></span> status</span>
+            </div>
+            <p class="status-box__msg">“Rainy week, so naturally I redrew the whole masthead three times. New poster series is up in the portfolio. Guestbook's open again, please leave a note!! (ﾉ◕ヮ◕)ﾉ*:･ﾟ✧”</p>
+            <div class="status-box__foot">
+              <span><b>currently working on:</b> a zine about screentone + a site for a tea house</span>
+              <span class="progress" role="progressbar" aria-label="Zine progress" aria-valuenow="64" aria-valuemin="0" aria-valuemax="100"><i style="width:64%"></i></span>
+            </div>
+          </article>
+        </section>
+
+        <!-- ===== WHAT'S NEW ===== -->
+        <section class="panel panel--main whats-new" id="whats-new" aria-labelledby="wn-title">
+          <div class="section-head">
+            <h2 class="section-title" id="wn-title"><img src="assets/icons/pixel-sparkle.svg" alt="" width="22" height="22"> WHAT'S NEW?</h2>
+            <a href="#journal" class="view-all">VIEW ALL UPDATES <i data-lucide="arrow-right" aria-hidden="true"></i></a>
+          </div>
+          <div class="divider-dots" aria-hidden="true"></div>
+
+          <ol class="updates">
+            <li class="update">
+              <time datetime="2026-11-24">24.11.26</time>
+              <span class="tag">PROJECT</span>
+              <p><b>Static Bloom</b> gig poster series is finished! Three posters, one spiral, way too much screentone. <a href="#portfolio">see it →</a></p>
+            </li>
+            <li class="update">
+              <time datetime="2026-11-18">18.11.26</time>
+              <span class="tag tag--inv">PORTFOLIO</span>
+              <p>Added the <b>Nora Roasters</b> identity sheet and the <b>Hoshi</b> music app flow to the gallery.</p>
+            </li>
+            <li class="update">
+              <time datetime="2026-11-09">09.11.26</time>
+              <span class="tag">EXPERIMENT</span>
+              <p>New toy in the lab: a <b>halftone playground</b>. Drag the sliders and watch the dots breathe. <a href="#experiments">play →</a></p>
+            </li>
+            <li class="update">
+              <time datetime="2026-11-02">02.11.26</time>
+              <span class="tag tag--inv">SITE</span>
+              <p>Rebuilt the whole homepage in plain HTML, CSS &amp; JS. New sidebar buttons, new grain, same old heart.</p>
+            </li>
+            <li class="update">
+              <time datetime="2026-10-21">21.10.26</time>
+              <span class="tag">JOURNAL</span>
+              <p>Wrote about why I keep drawing everything in black and white. <a href="#journal">read →</a></p>
+            </li>
+          </ol>
+        </section>
+
+        <!-- ===== PORTFOLIO ===== -->
+        <section class="panel panel--main portfolio" id="portfolio" aria-labelledby="pf-title">
+          <div class="section-head">
+            <h2 class="section-title" id="pf-title"><img src="assets/icons/pixel-window.svg" alt="" width="22" height="22"> MY CREATIVE WORK</h2>
+            <span class="section-meta">06 entries · 2024–2026</span>
+          </div>
+          <div class="divider-dots" aria-hidden="true"></div>
+
+          <div class="filters" role="group" aria-label="Filter projects">
+            <button class="filter is-active" type="button" data-filter="all" aria-pressed="true">ALL</button>
+            <button class="filter" type="button" data-filter="web" aria-pressed="false">WEB</button>
+            <button class="filter" type="button" data-filter="ui" aria-pressed="false">UI/UX</button>
+            <button class="filter" type="button" data-filter="brand" aria-pressed="false">BRANDING</button>
+            <button class="filter" type="button" data-filter="graphic" aria-pressed="false">GRAPHIC</button>
+            <button class="filter" type="button" data-filter="motion" aria-pressed="false">MOTION</button>
+            <button class="filter" type="button" data-filter="dev" aria-pressed="false">DEV</button>
+          </div>
+
+          <div class="gallery">
+            <article class="project project--wide" data-cat="web">
+              <figure class="project__img"><img src="assets/images/proj-website.svg" alt="Tsukimi tea house website shown in a browser window" loading="lazy"></figure>
+              <div class="project__info">
+                <p class="project__meta"><span>WEBSITE DESIGN</span><span>2026</span></p>
+                <h3 class="project__title">Tsukimi Tea House</h3>
+                <p>A quiet booking site for a moon-viewing tea house. Big type, slow scroll, a moon that shows the real lunar phase.</p>
+                <a class="project__link" href="#contact">VIEW PROJECT <i data-lucide="arrow-up-right" aria-hidden="true"></i></a>
+              </div>
+            </article>
+
+            <article class="project project--tall" data-cat="graphic">
+              <figure class="project__img"><img src="assets/images/proj-poster.svg" alt="Static Bloom gig poster with a radiating spiral" loading="lazy"></figure>
+              <div class="project__info">
+                <p class="project__meta"><span>GRAPHIC DESIGN</span><span>2026</span></p>
+                <h3 class="project__title">Static Bloom</h3>
+                <p>Riso-style gig posters for a noise-pop band. One spiral, three colourways of grey.</p>
+                <a class="project__link" href="#contact">VIEW PROJECT <i data-lucide="arrow-up-right" aria-hidden="true"></i></a>
+              </div>
+            </article>
+
+            <article class="project" data-cat="ui">
+              <figure class="project__img"><img src="assets/images/proj-uiux.svg" alt="Three phone screens from the Hoshi music app" loading="lazy"></figure>
+              <div class="project__info">
+                <p class="project__meta"><span>UI / UX</span><span>2025</span></p>
+                <h3 class="project__title">Hoshi Music App</h3>
+                <p>A tiny lo-fi player with focus timers and sleep mode. Tested with 40 night owls.</p>
+                <a class="project__link" href="#contact">VIEW PROJECT <i data-lucide="arrow-up-right" aria-hidden="true"></i></a>
+              </div>
+            </article>
+
+            <article class="project" data-cat="brand">
+              <figure class="project__img"><img src="assets/images/proj-branding.svg" alt="Nora Roasters brand sheet with star logo and grey palette" loading="lazy"></figure>
+              <div class="project__info">
+                <p class="project__meta"><span>BRANDING</span><span>2025</span></p>
+                <h3 class="project__title">Nora Roasters</h3>
+                <p>Identity for a stray-cat-themed coffee roaster: logo, packaging system and a very small mascot.</p>
+                <a class="project__link" href="#contact">VIEW PROJECT <i data-lucide="arrow-up-right" aria-hidden="true"></i></a>
+              </div>
+            </article>
+
+            <article class="project" data-cat="motion">
+              <figure class="project__img"><img src="assets/images/proj-motion.svg" alt="Film strip of a bouncing star animation study" loading="lazy"></figure>
+              <div class="project__info">
+                <p class="project__meta"><span>MOTION GRAPHICS</span><span>2024</span></p>
+                <h3 class="project__title">Hopstar.mp4</h3>
+                <p>A squash-and-stretch loop that became a sticker pack and then a whole channel ident.</p>
+                <a class="project__link" href="#contact">VIEW PROJECT <i data-lucide="arrow-up-right" aria-hidden="true"></i></a>
+              </div>
+            </article>
+
+            <article class="project project--wide project--flip" data-cat="dev">
+              <figure class="project__img"><img src="assets/images/proj-creativedev.svg" alt="Code editor beside a generative dot pattern" loading="lazy"></figure>
+              <div class="project__info">
+                <p class="project__meta"><span>CREATIVE DEVELOPMENT</span><span>2024</span></p>
+                <h3 class="project__title">ink.wave</h3>
+                <p>A generative halftone engine for album art. Three sine waves, a few thousand dots, endless covers.</p>
+                <a class="project__link" href="#experiments">VIEW PROJECT <i data-lucide="arrow-up-right" aria-hidden="true"></i></a>
+              </div>
+            </article>
+          </div>
+          <p class="empty-note" hidden>nothing here yet ( ; ω ; )</p>
+        </section>
+
+        <!-- ===== ABOUT ===== -->
+        <section class="panel panel--main about" id="about" aria-labelledby="about-title">
+          <div class="section-head">
+            <h2 class="section-title" id="about-title"><img src="assets/icons/pixel-heart.svg" alt="" width="22" height="22"> ABOUT ME</h2>
+            <span class="section-meta">profile.dat</span>
+          </div>
+          <div class="divider-dots" aria-hidden="true"></div>
+
+          <div class="about__grid">
+            <div class="about__portrait">
+              <div class="portrait-frame">
+                <img src="assets/images/portrait-beret.svg" alt="Original anime-style portrait of Noa: short bob, beret, round glasses, holding a pencil" loading="lazy" width="360" height="400">
+              </div>
+              <div class="id-cards">
+                <div class="id-card"><span>NAME</span><b>Noa Kuroe</b></div>
+                <div class="id-card"><span>ROLE</span><b>Creative designer</b></div>
+                <div class="id-card"><span>BASE</span><b>Remote · worldwide</b></div>
+                <div class="id-card"><span>SIGN</span><b>☾ night owl</b></div>
+              </div>
+            </div>
+
+            <div class="about__text">
+              <h3 class="sub-title">hi, it's me ☆</h3>
+              <p>I've been making things for the internet since I was the kid with a hand-coded fan site and a hit counter I refreshed way too much. Seven years later I design and build for studios, bands, cafés and anyone who wants their corner of the web to feel personal.</p>
+
+              <h3 class="sub-title">creative philosophy</h3>
+              <blockquote class="quote">“Limits make the work louder. Take the colour away and what's left has to be really good: the composition, the rhythm, the type, the feeling.”</blockquote>
+
+              <h3 class="sub-title">things I love</h3>
+              <ul class="tag-cloud">
+                <li>manga panels</li><li>screentone</li><li>risograph</li><li>pixel fonts</li><li>early web</li><li>zines</li><li>grid systems</li><li>film grain</li><li>tiny interactions</li><li>type specimens</li>
+              </ul>
+
+              <div class="skills-grid">
+                <div class="skill-box">
+                  <h3 class="sub-title">skills</h3>
+                  <ul class="meters">
+                    <li><span>Web design</span><span class="meter"><i style="--v:95%"></i></span></li>
+                    <li><span>UI / UX</span><span class="meter"><i style="--v:88%"></i></span></li>
+                    <li><span>Branding</span><span class="meter"><i style="--v:82%"></i></span></li>
+                    <li><span>Illustration</span><span class="meter"><i style="--v:76%"></i></span></li>
+                    <li><span>Motion</span><span class="meter"><i style="--v:70%"></i></span></li>
+                  </ul>
+                </div>
+                <div class="skill-box">
+                  <h3 class="sub-title">tools &amp; tech</h3>
+                  <ul class="tools">
+                    <li><i data-lucide="pen-tool" aria-hidden="true"></i> Figma</li>
+                    <li><i data-lucide="code-2" aria-hidden="true"></i> HTML / CSS / JS</li>
+                    <li><i data-lucide="zap" aria-hidden="true"></i> GSAP</li>
+                    <li><i data-lucide="brush" aria-hidden="true"></i> Procreate</li>
+                    <li><i data-lucide="film" aria-hidden="true"></i> After Effects</li>
+                    <li><i data-lucide="box" aria-hidden="true"></i> Blender</li>
+                    <li><i data-lucide="type" aria-hidden="true"></i> Glyphs</li>
+                    <li><i data-lucide="printer" aria-hidden="true"></i> Risograph</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- ===== SERVICES ===== -->
+        <section class="panel panel--main services" id="services" aria-labelledby="sv-title">
+          <div class="section-head">
+            <h2 class="section-title" id="sv-title"><img src="assets/icons/pixel-star.svg" alt="" width="22" height="22"> MY SERVICES</h2>
+            <span class="section-meta">menu.exe</span>
+          </div>
+          <div class="divider-dots" aria-hidden="true"></div>
+          <div class="service-list">
+            <article class="service">
+              <span class="service__no">01</span>
+              <div><h3>Website Design &amp; Build</h3><p>Personal sites, portfolios and small business pages, designed and hand-coded with animation.</p></div>
+              <span class="service__price">from 2–4 wks</span>
+            </article>
+            <article class="service">
+              <span class="service__no">02</span>
+              <div><h3>UI / UX Design</h3><p>App flows, prototypes and design systems with personality, tested with real people.</p></div>
+              <span class="service__price">from 2 wks</span>
+            </article>
+            <article class="service">
+              <span class="service__no">03</span>
+              <div><h3>Brand Identity</h3><p>Logos, type systems, packaging and guidelines that stay strong in pure black &amp; white.</p></div>
+              <span class="service__price">from 3 wks</span>
+            </article>
+            <article class="service">
+              <span class="service__no">04</span>
+              <div><h3>Posters, Zines &amp; Print</h3><p>Gig posters, covers and riso-friendly print work. Screentone included.</p></div>
+              <span class="service__price">from 1 wk</span>
+            </article>
+            <article class="service">
+              <span class="service__no">05</span>
+              <div><h3>Motion &amp; Loops</h3><p>Logo stings, social loops and UI micro-animations in After Effects or code.</p></div>
+              <span class="service__price">from 1 wk</span>
+            </article>
+          </div>
+        </section>
+
+        <!-- ===== DESIGN LAB ===== -->
+        <section class="panel panel--main lab" id="lab" aria-labelledby="lab-title">
+          <div class="section-head">
+            <h2 class="section-title" id="lab-title"><img src="assets/icons/pixel-cursor.svg" alt="" width="18" height="22"> DESIGN LAB</h2>
+            <span class="section-meta">experimental visuals</span>
+          </div>
+          <div class="divider-dots" aria-hidden="true"></div>
+          <div class="lab-grid">
+            <figure class="lab-item lab-item--panel">
+              <img src="assets/images/manga-panel-rooftop.svg" alt="Manga-style panel of a figure watching the moon over a city rooftop" loading="lazy">
+              <figcaption>#014 · rooftop panel study</figcaption>
+            </figure>
+            <figure class="lab-item lab-type" aria-label="Typographic experiment: the word NOISE stacked and distorted">
+              <div class="lab-type__stack" aria-hidden="true"><span>NOISE</span><span>NOISE</span><span>NOISE</span><span>NOISE</span></div>
+              <figcaption>#013 · type stack</figcaption>
+            </figure>
+            <figure class="lab-item lab-speed" aria-label="Speed lines burst with sound effect lettering">
+              <span class="lab-speed__sfx" aria-hidden="true" lang="ja">ドン!</span>
+              <figcaption>#012 · focus lines</figcaption>
+            </figure>
+            <figure class="lab-item lab-orb" aria-label="Halftone sphere made of dots">
+              <span class="lab-orb__ball" aria-hidden="true"></span>
+              <figcaption>#011 · halftone orb</figcaption>
+            </figure>
+            <figure class="lab-item lab-grid-art" aria-label="Pixel grid composition of checker squares">
+              <div class="checker" aria-hidden="true"></div>
+              <figcaption>#010 · checker drift</figcaption>
+            </figure>
+          </div>
+        </section>
+
+        <!-- ===== EXPERIMENTS ===== -->
+        <section class="panel panel--main experiments" id="experiments" aria-labelledby="ex-title">
+          <div class="section-head">
+            <h2 class="section-title" id="ex-title"><img src="assets/icons/pixel-sparkle.svg" alt="" width="22" height="22"> EXPERIMENTS</h2>
+            <span class="section-meta">interactive toys · touch them!</span>
+          </div>
+          <div class="divider-dots" aria-hidden="true"></div>
+
+          <div class="ex-grid">
+            <div class="ex-box">
+              <h3 class="sub-title">halftone playground</h3>
+              <canvas id="halftone-canvas" width="480" height="300" aria-label="Animated halftone dot pattern controlled by the sliders below" role="img"></canvas>
+              <div class="ex-controls">
+                <label>dot size <input type="range" id="ht-size" min="4" max="20" value="10"></label>
+                <label>wave <input type="range" id="ht-wave" min="0" max="100" value="45"></label>
+                <label class="ex-check"><input type="checkbox" id="ht-invert"> invert</label>
+              </div>
+            </div>
+
+            <div class="ex-box">
+              <h3 class="sub-title">sticker board</h3>
+              <div class="sticker-board" id="sticker-board" tabindex="0" role="button" aria-label="Sticker board. Click or press Enter to place a sticker">
+                <span class="sticker-board__hint">click anywhere to stamp ✦</span>
+              </div>
+              <div class="ex-controls">
+                <button class="mini-btn" type="button" id="sticker-clear"><i data-lucide="eraser" aria-hidden="true"></i> clear</button>
+                <span class="ex-count">stickers: <b id="sticker-count">0</b></span>
+              </div>
+            </div>
+
+            <div class="ex-box ex-box--wide">
+              <h3 class="sub-title">glitch type</h3>
+              <label class="visually-hidden" for="glitch-input">Type something to glitch</label>
+              <input class="field" id="glitch-input" type="text" maxlength="18" value="KUROINK" autocomplete="off">
+              <p class="glitch" id="glitch-out" data-text="KUROINK">KUROINK</p>
+            </div>
+          </div>
+        </section>
+
+        <!-- ===== JOURNAL ===== -->
+        <section class="panel panel--main journal" id="journal" aria-labelledby="jr-title">
+          <div class="section-head">
+            <h2 class="section-title" id="jr-title"><img src="assets/icons/pixel-window.svg" alt="" width="22" height="22"> JOURNAL</h2>
+            <span class="section-meta">diary · unfiltered</span>
+          </div>
+          <div class="divider-dots" aria-hidden="true"></div>
+
+          <div class="posts">
+            <article class="post">
+              <header class="post__head">
+                <time datetime="2026-11-20">20 NOV 2026</time>
+                <span class="post__mood">mood: sleepy ☾</span>
+              </header>
+              <h3 class="post__title">screentone is just math wearing a costume</h3>
+              <p>Spent the weekend reverse-engineering old manga tones. A 60-line screen at 20% is just a grid of dots with a radius function. Built a little generator, then spent four hours just staring at moiré patterns.</p>
+              <details class="post__more">
+                <summary>read more</summary>
+                <p>The best part: rotate two tone layers 15° against each other and you get rosettes, the same ones you see in old comic printing. I'm putting the generator into the Experiments section soon.</p>
+              </details>
+            </article>
+            <article class="post">
+              <header class="post__head">
+                <time datetime="2026-10-21">21 OCT 2026</time>
+                <span class="post__mood">mood: thoughtful ✎</span>
+              </header>
+              <h3 class="post__title">why everything here is black &amp; white</h3>
+              <p>People ask if I'm "against colour". Not at all! But monochrome makes me work harder at contrast, rhythm and type. And clients remember the work that's brave enough to stay quiet.</p>
+              <details class="post__more">
+                <summary>read more</summary>
+                <p>Also, black ink is cheap and the risograph only has one drum. Constraints all the way down.</p>
+              </details>
+            </article>
+            <article class="post">
+              <header class="post__head">
+                <time datetime="2026-09-30">30 SEP 2026</time>
+                <span class="post__mood">mood: hyped ★</span>
+              </header>
+              <h3 class="post__title">my desk setup (2026 edition)</h3>
+              <p>One old drawing tablet, one new monitor, a sticker-covered laptop and a jar of pens I never use because I draw everything digitally anyway. Photos coming once I tidy up (never).</p>
+            </article>
+          </div>
+        </section>
+
+        <!-- ===== GUESTBOOK ===== -->
+        <section class="panel panel--main guestbook" id="guestbook" aria-labelledby="gb-title">
+          <div class="section-head">
+            <h2 class="section-title" id="gb-title"><img src="assets/icons/pixel-heart.svg" alt="" width="22" height="22"> GUESTBOOK</h2>
+            <span class="section-meta"><span id="gb-count">0</span> signatures</span>
+          </div>
+          <div class="divider-dots" aria-hidden="true"></div>
+
+          <div class="gb-grid">
+            <form class="form gb-form" id="gb-form" novalidate>
+              <p class="form-intro">sign my guestbook! be nice ♡</p>
+              <div class="field-row">
+                <label for="gb-name">name <span aria-hidden="true">*</span></label>
+                <input class="field" id="gb-name" name="name" type="text" maxlength="32" required autocomplete="nickname">
+              </div>
+              <div class="field-row">
+                <label for="gb-site">website <span class="opt">(optional)</span></label>
+                <input class="field" id="gb-site" name="site" type="url" placeholder="https://" autocomplete="url">
+              </div>
+              <div class="field-row">
+                <label for="gb-msg">message <span aria-hidden="true">*</span></label>
+                <textarea class="field" id="gb-msg" name="message" rows="4" maxlength="280" required></textarea>
+                <span class="char-count" id="gb-chars" aria-live="polite">0 / 280</span>
+              </div>
+              <fieldset class="stamp-pick">
+                <legend>pick a stamp</legend>
+                <label><input type="radio" name="stamp" value="★" checked><span>★</span></label>
+                <label><input type="radio" name="stamp" value="♡"><span>♡</span></label>
+                <label><input type="radio" name="stamp" value="✿"><span>✿</span></label>
+                <label><input type="radio" name="stamp" value="☾"><span>☾</span></label>
+                <label><input type="radio" name="stamp" value="✎"><span>✎</span></label>
+              </fieldset>
+              <button class="btn-retro btn-retro--light" type="submit"><i data-lucide="send" aria-hidden="true"></i> SIGN IT</button>
+              <p class="form-status" id="gb-status" role="status" aria-live="polite"></p>
+            </form>
+
+            <ol class="gb-entries" id="gb-entries" aria-label="Guestbook entries"></ol>
+          </div>
+        </section>
+
+        <!-- ===== CONTACT ===== -->
+        <section class="panel panel--main contact" id="contact" aria-labelledby="ct-title">
+          <div class="section-head">
+            <h2 class="section-title" id="ct-title"><img src="assets/icons/pixel-sparkle.svg" alt="" width="22" height="22"> CONTACT</h2>
+            <span class="section-meta">reply within 2 days</span>
+          </div>
+          <div class="divider-dots" aria-hidden="true"></div>
+
+          <div class="contact-grid">
+            <div class="contact-side">
+              <p class="big-note">got a project, a weird idea or just want to talk about fonts?</p>
+              <p>Fill in the form and it lands straight in my inbox. I take on <b>2–3 projects a month</b> so each one gets proper attention.</p>
+              <ul class="contact-list">
+                <li><i data-lucide="mail" aria-hidden="true"></i> hello@kuroink.example</li>
+                <li><i data-lucide="clock" aria-hidden="true"></i> Mon–Fri · async friendly</li>
+                <li><i data-lucide="globe" aria-hidden="true"></i> remote, worldwide</li>
+              </ul>
+              <div class="mail-stamp" aria-hidden="true"><span>AIR<br>MAIL</span></div>
+            </div>
+
+            <!-- Formspree: replace YOUR_FORM_ID with your form's ID from formspree.io -->
+            <form class="form contact-form" id="contact-form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST" novalidate>
+              <div class="field-pair">
+                <div class="field-row">
+                  <label for="ct-name">name *</label>
+                  <input class="field" id="ct-name" name="name" type="text" required autocomplete="name">
+                </div>
+                <div class="field-row">
+                  <label for="ct-email">email *</label>
+                  <input class="field" id="ct-email" name="email" type="email" required autocomplete="email">
+                </div>
+              </div>
+              <div class="field-row">
+                <label for="ct-type">project type *</label>
+                <select class="field" id="ct-type" name="project_type" required>
+                  <option value="">choose one…</option>
+                  <option>Website design &amp; build</option>
+                  <option>UI / UX design</option>
+                  <option>Brand identity</option>
+                  <option>Posters / print</option>
+                  <option>Motion graphics</option>
+                  <option>Something else</option>
+                </select>
+              </div>
+              <div class="field-row">
+                <label for="ct-msg">message *</label>
+                <textarea class="field" id="ct-msg" name="message" rows="5" required></textarea>
+              </div>
+              <!-- honeypot -->
+              <input type="text" name="_gotcha" tabindex="-1" autocomplete="off" class="visually-hidden" aria-hidden="true">
+              <input type="hidden" name="_subject" value="New enquiry from kuroink site">
+              <button class="btn-retro btn-retro--light" type="submit"><i data-lucide="send" aria-hidden="true"></i> SEND MESSAGE</button>
+              <p class="form-status" id="ct-status" role="status" aria-live="polite"></p>
+            </form>
+          </div>
+        </section>
+
+        <!-- ===== LINKS ===== -->
+        <section class="panel panel--main links" id="links" aria-labelledby="ln-title">
+          <div class="section-head">
+            <h2 class="section-title" id="ln-title"><img src="assets/icons/pixel-ring.svg" alt="" width="22" height="22"> MY LINKS</h2>
+            <span class="section-meta">bookmarks i actually use</span>
+          </div>
+          <div class="divider-dots" aria-hidden="true"></div>
+
+          <div class="link-cols">
+            <div class="link-box">
+              <h3 class="sub-title">inspiration</h3>
+              <ul>
+                <li><a href="https://www.are.na" target="_blank" rel="noopener">Are.na <i data-lucide="external-link" aria-hidden="true"></i></a><span>moodboards for nerds</span></li>
+                <li><a href="https://neocities.org" target="_blank" rel="noopener">Neocities <i data-lucide="external-link" aria-hidden="true"></i></a><span>the personal web lives</span></li>
+                <li><a href="https://fontsinuse.com" target="_blank" rel="noopener">Fonts In Use <i data-lucide="external-link" aria-hidden="true"></i></a><span>type in the wild</span></li>
+                <li><a href="https://www.siteinspire.com" target="_blank" rel="noopener">siteInspire <i data-lucide="external-link" aria-hidden="true"></i></a><span>web design gallery</span></li>
+              </ul>
+            </div>
+            <div class="link-box">
+              <h3 class="sub-title">free resources</h3>
+              <ul>
+                <li><a href="https://fonts.google.com" target="_blank" rel="noopener">Google Fonts <i data-lucide="external-link" aria-hidden="true"></i></a><span>open-licence type</span></li>
+                <li><a href="https://commons.wikimedia.org" target="_blank" rel="noopener">Wikimedia Commons <i data-lucide="external-link" aria-hidden="true"></i></a><span>free media library</span></li>
+                <li><a href="https://openverse.org" target="_blank" rel="noopener">Openverse <i data-lucide="external-link" aria-hidden="true"></i></a><span>CC-licensed images</span></li>
+                <li><a href="https://lospec.com" target="_blank" rel="noopener">Lospec <i data-lucide="external-link" aria-hidden="true"></i></a><span>pixel art palettes &amp; tools</span></li>
+              </ul>
+            </div>
+            <div class="link-box">
+              <h3 class="sub-title">tools i build with</h3>
+              <ul>
+                <li><a href="https://gsap.com" target="_blank" rel="noopener">GSAP <i data-lucide="external-link" aria-hidden="true"></i></a><span>animation engine</span></li>
+                <li><a href="https://lenis.darkroom.engineering" target="_blank" rel="noopener">Lenis <i data-lucide="external-link" aria-hidden="true"></i></a><span>smooth scroll</span></li>
+                <li><a href="https://lucide.dev" target="_blank" rel="noopener">Lucide <i data-lucide="external-link" aria-hidden="true"></i></a><span>icon set</span></li>
+                <li><a href="https://formspree.io" target="_blank" rel="noopener">Formspree <i data-lucide="external-link" aria-hidden="true"></i></a><span>forms without servers</span></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="buttons88" aria-label="Link-back buttons">
+            <span class="badge88"><b>KUROINK</b><i>LINK ME!</i></span>
+            <span class="badge88 badge88--inv"><b>MONO</b><i>RING ★</i></span>
+            <span class="badge88"><b>NO COOKIES</b><i>JUST INK</i></span>
+            <span class="badge88 badge88--inv"><b>MADE W/</b><i>♡ + GSAP</i></span>
+          </div>
+        </section>
+
+      </main>
+    </div>
+
+    <!-- ===== FOOTER ===== -->
+    <footer class="footer">
+      <div class="footer__inner">
+        <p>© <span id="year">2026</span> Noa Kuroe · kuroink · all illustrations are original works for this site</p>
+        <p class="footer__links"><a href="#top" class="mini-btn" id="to-top"><i data-lucide="arrow-up" aria-hidden="true"></i> top</a></p>
+      </div>
+      <p class="footer__jp" lang="ja" aria-hidden="true">また来てね ✦ come back soon</p>
+    </footer>
+  </div>
+
+  <script src="js/vendor/gsap.min.js" defer></script>
+  <script src="js/vendor/ScrollTrigger.min.js" defer></script>
+  <script src="js/vendor/lenis.min.js" defer></script>
+  <script src="js/vendor/lucide.min.js" defer></script>
+  <script src="js/main.js" defer></script>
+  <script src="js/animations.js" defer></script>
+</body>
+</html>

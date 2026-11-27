@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520" role="img"><title>Tsukimi tea house website mockup</title><defs><pattern id="d" width="8" height="8" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.2" fill="#3a3a3a"/></pattern><pattern id="dl" width="6" height="6" patternUnits="userSpaceOnUse"><rect width="6" height="6" fill="#eaeaea"/><circle cx="3" cy="3" r="1.2" fill="#999"/></pattern><pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse"><path d="M0 8L8 0" stroke="#555" stroke-width="1.5"/></pattern></defs><rect width="800" height="520" fill="#202020"/><rect width="800" height="520" fill="url(#d)"/>
+<rect x="60" y="40" width="680" height="440" rx="10" fill="#eaeaea" stroke="#000" stroke-width="4"/>
+<rect x="60" y="40" width="680" height="40" rx="10" fill="#151515"/><rect x="60" y="66" width="680" height="14" fill="#151515"/>
+<circle cx="86" cy="60" r="7" fill="#eaeaea"/><circle cx="108" cy="60" r="7" fill="#a0a0a0"/><circle cx="130" cy="60" r="7" fill="#555"/>
+<rect x="170" y="50" width="380" height="20" rx="10" fill="#292929"/><text x="186" y="65" font-family="monospace" font-size="12" fill="#a0a0a0">https://tsukimi-tea.house</text>
+<rect x="90" y="100" width="620" height="170" fill="#151515"/><rect x="90" y="100" width="620" height="170" fill="url(#hatch)" opacity=".5"/>
+<circle cx="600" cy="185" r="62" fill="#eaeaea"/><circle cx="625" cy="170" r="62" fill="#151515"/>
+<text x="120" y="180" font-family="Impact, sans-serif" font-size="60" fill="#fff" letter-spacing="2">TSUKIMI</text>
+<text x="122" y="214" font-family="monospace" font-size="16" fill="#a0a0a0">moon-viewing tea house · est. 1962</text>
+<rect x="122" y="232" width="120" height="24" rx="12" fill="#fff"/><text x="142" y="249" font-family="monospace" font-size="12" font-weight="700">RESERVE →</text>
+<g fill="#151515"><rect x="90" y="290" width="196" height="120"/><rect x="302" y="290" width="196" height="120"/><rect x="514" y="290" width="196" height="120"/></g>
+<rect x="90" y="290" width="196" height="120" fill="url(#dl)"/><rect x="514" y="290" width="196" height="120" fill="url(#hatch)"/>
+<g fill="#555"><rect x="90" y="424" width="150" height="10"/><rect x="302" y="424" width="170" height="10"/><rect x="514" y="424" width="120" height="10"/><rect x="90" y="442" width="110" height="8"/><rect x="302" y="442" width="90" height="8"/><rect x="514" y="442" width="140" height="8"/></g></svg>

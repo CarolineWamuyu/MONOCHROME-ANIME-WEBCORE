@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520" role="img"><title>Nora Roasters brand identity sheet</title><defs><pattern id="d" width="8" height="8" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.2" fill="#3a3a3a"/></pattern><pattern id="dl" width="6" height="6" patternUnits="userSpaceOnUse"><rect width="6" height="6" fill="#eaeaea"/><circle cx="3" cy="3" r="1.2" fill="#999"/></pattern><pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse"><path d="M0 8L8 0" stroke="#555" stroke-width="1.5"/></pattern></defs><rect width="800" height="520" fill="#151515"/><rect width="800" height="520" fill="url(#d)"/>
+<rect x="40" y="40" width="340" height="440" fill="#eaeaea" stroke="#000" stroke-width="4"/>
+<circle cx="210" cy="210" r="96" fill="#080808"/><path d="M210 132 C220 196 236 206 290 210 C236 214 220 228 210 288 C200 228 184 214 130 210 C184 206 200 196 210 132Z" fill="#eaeaea"/>
+<text x="210" y="368" text-anchor="middle" font-family="Impact, sans-serif" font-size="46" letter-spacing="6">NORA</text><text x="210" y="396" text-anchor="middle" font-family="monospace" font-size="13" letter-spacing="4">ROASTERS · 野良</text>
+<g font-family="monospace" font-size="11" fill="#555"><text x="60" y="460">PRIMARY MARK</text><text x="300" y="460">01/04</text></g>
+<rect x="400" y="40" width="360" height="210" fill="#080808" stroke="#555" stroke-width="2"/>
+<text x="580" y="160" text-anchor="middle" font-family="Impact, sans-serif" font-size="64" fill="#fff" letter-spacing="6">NORA</text>
+<rect x="400" y="270" width="170" height="210" fill="#eaeaea"/><rect x="590" y="270" width="170" height="210" fill="#555"/>
+<circle cx="485" cy="350" r="40" fill="#080808"/><path d="M485 318 C489 344 495 346 517 350 C495 354 489 358 485 382 C481 358 475 354 453 350 C475 346 481 344 485 318Z" fill="#eaeaea"/>
+<g font-family="monospace" font-size="12" fill="#eaeaea"><text x="606" y="300">#080808</text><text x="606" y="320">#555555</text><text x="606" y="340">#EAEAEA</text></g>
+<rect x="606" y="360" width="40" height="40" fill="#080808"/><rect x="652" y="360" width="40" height="40" fill="#a0a0a0"/><rect x="698" y="360" width="40" height="40" fill="#eaeaea"/></svg>
